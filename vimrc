@@ -6,7 +6,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set gfn=Monaco:h12
 set tabstop=4
-set taglength=4 "设置tab长度4
+set taglength=2 "设置tab长度2
  set softtabstop=4 " 设置按BackSpace的时候可以一次删除掉4个空格
 "set foldmethod=indent "设置折叠, zc折叠， zo展开
 syntax on " 自动语法高亮
@@ -54,11 +54,11 @@ Bundle 'tpope/vim-rails.git'
 "Bundle 'Valloric/YouCompleteMe'
 
 ""vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+"Bundle 'L9'
+"Bundle 'FuzzyFinder'
 ""相较于Command-T等查找文件的插件，ctrlp.vim最大的好处在于没有依赖，干净利落
-Bundle 'ctrlp.vim'
-""在输入()，""等需要配对的符号时，自动帮你补全剩余半个
+"Bundle 'ctrlp.vim'
+"在输入()，""等需要配对的符号时，自动帮你补全剩余半个
 Bundle 'AutoClose'
 ""神级插件，ZenCoding可以让你以一种神奇而无比爽快的感觉写HTML、CSS
 Bundle 'ZenCoding.vim'

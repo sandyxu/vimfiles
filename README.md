@@ -7,8 +7,8 @@
 Vundle的灵感来自[Pathogen]的启发，它的逻辑是这样的：
 
     1. 在 [vim-scripts]或github上选好要安装的plugin
-    2. 添加在.vimrc中 `Bundle plugin-name`
-    3. 然后命令模式输入 `:BundleInstall`
+    2. 添加在.vimrc中, 如 Bundle plugin-name
+    3. 然后命令模式输入 :BundleInstall
 
 连vim都可以[bundler]了，程序的世界更完美了。
 
