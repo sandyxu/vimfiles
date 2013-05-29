@@ -5,9 +5,10 @@ filetype off " 检测文件类型
 set encoding=utf-8
 set fileencoding=utf-8
 set gfn=Monaco:h12
-set tabstop=4
+set tabstop=2
 set taglength=2 "设置tab长度2
- set softtabstop=4 " 设置按BackSpace的时候可以一次删除掉4个空格
+set softtabstop=2 " 设置按BackSpace的时候可以一次删除掉4个空格
+set shiftwidth=2
 "set foldmethod=indent "设置折叠, zc折叠， zo展开
 syntax on " 自动语法高亮
 set cf " Enable error files & error jumping.
