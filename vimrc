@@ -7,8 +7,9 @@ set fileencoding=utf-8
 set gfn=Monaco:h12
 set tabstop=2
 set taglength=2 "设置tab长度2
-set softtabstop=2 " 设置按BackSpace的时候可以一次删除掉4个空格
-set shiftwidth=2
+set softtabstop=2 " 设置按BackSpace的时候可以一次删除掉2个空格
+set shiftwidth=2 "设置缩进长度
+set expandtab "展开tab占位符
 "set foldmethod=indent "设置折叠, zc折叠， zo展开
 syntax on " 自动语法高亮
 set cf " Enable error files & error jumping.
@@ -64,21 +65,21 @@ Bundle 'AutoClose'
 ""神级插件，ZenCoding可以让你以一种神奇而无比爽快的感觉写HTML、CSS
 Bundle 'ZenCoding.vim'
 ""在()、""、甚至HTML标签之间快速跳转；
-Bundle 'matchit.zip'
+"Bundle 'matchit.zip'
 ""显示行末的空格；
 Bundle 'ShowTrailingWhitespace'
 ""JS代码格式化插件；
 Bundle '_jsbeautify'
 ""用全新的方式在文档中高效的移动光标，革命性的突破
-Bundle 'EasyMotion'
+"Bundle 'EasyMotion'
 ""自动识别文件编码；
 Bundle 'FencView.vim'
 ""必不可少，在VIM的编辑窗口树状显示文件目录
 Bundle 'The-NERD-tree'
 ""NERD出品的快速给代码加注释插件，选中，`ctrl+h`即可注释多种语言代码；
-Bundle 'The-NERD-Commenter'
+"Bundle 'The-NERD-Commenter'
 ""解放生产力的神器，简单配置，就可以按照自己的风格快速输入大段代码。
-Bundle 'UltiSnips'
+"Bundle 'UltiSnips'
 ""让代码更加易于纵向排版，以=或,符号对齐
 Bundle 'Tabular'
 " ================= ================= =================
